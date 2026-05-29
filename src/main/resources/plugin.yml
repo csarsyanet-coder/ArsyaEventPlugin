@@ -1,0 +1,11 @@
+name: EventPoints
+version: 1.0
+main: id.my.arsyanet.eventpoints.EventPoints
+api-version: '1.21'
+description: Plugin point system untuk keperluan event
+author: arsya dev
+softdepend: [PlaceholderAPI]
+commands:
+  point:
+    description: Command utama sistem point
+    usage: /point <add|remove|reset|top|cek>
